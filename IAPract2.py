@@ -20,3 +20,7 @@ def getRandCart():
 m[0][0] = getRandCart()
 printTable()
 
+#condisions fila:
+# -> NO dues cartes amb el mateix pal
+# -> NO més d'1 carta en comparació a la resta de files
+#Sinó és possible avançar amb les condicions de la fila usant la carta actual, s'aplicarà backtracking
